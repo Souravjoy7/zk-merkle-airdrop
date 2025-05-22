@@ -1,0 +1,9 @@
+
+---
+
+### Steps to Update Your GitHub Repository
+
+1. **Stage the changes** in your local repo:
+
+```bash
+git add README.md
