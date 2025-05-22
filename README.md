@@ -1,22 +1,27 @@
 # ZK Merkle Airdrop
 
-This repository provides the necessary tools to deploy a **Merkle Airdrop** contract using Hardhat, including the full process for generating Merkle trees, deploying contracts, and claiming airdrops with Merkle proofs.
+This repository provides a complete guide to deploying and interacting with a Merkle Airdrop smart contract using Hardhat. It includes:
 
-## **Prerequisites**
+- Generating a Merkle tree
+- Deploying the airdrop contract
+- Claiming tokens using Merkle proofs
 
-Before you begin, ensure that you have the following installed:
+---
 
-- **Node.js** (v18 or above)
-- **Hardhat** (for Ethereum development)
-- **ethers.js** (for interacting with the Ethereum blockchain)
-- **Git** (for version control)
+## 📦 Prerequisites
 
-## **Getting Started**
+Make sure your VPS or environment has:
 
-### 1. **Clone the Repository**
+- **Node.js v18+**
+- **Git**
+- **npm**
+- **Hardhat**
 
-Clone the repository to your machine:
+Install everything (run this in terminal):
 
 ```bash
-git clone https://github.com/souravjoy7/zk-merkle-airdrop.git 
-cd zk-merkle-airdrop
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl git build-essential -y
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+npm install -g hardhat
